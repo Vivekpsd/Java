@@ -23,6 +23,7 @@ public class TypeCasting {
 
         // byte, short, char -> promoted to int during arithmetic
         int result1 = num1+num2; // ✅
+        System.out.println(result1);
         //  byte result2 = num1+num2; ❌
 
         // ----------- Conversion -------------
@@ -33,6 +34,7 @@ public class TypeCasting {
 
         // string -> number
         String S_NUM = "10";
+        System.out.println(S_NUM);
         int num = Integer.parseInt(s);
         double db = Double.parseDouble("10.5");
 
